@@ -1,0 +1,50 @@
+*{
+    font-size: 2vw;
+}
+
+input {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+}
+
+input:empty {
+    text-align: right;
+}
+
+th:first-child {
+    width: 8%;
+}
+
+th:last-child {
+    width: 20%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1%;
+
+}
+
+table {
+    margin: 0 auto 0 auto;
+    width: 60%;
+    height: 50%;
+    margin-top: 10px;
+}
+
+button {
+    text-align: center;
+    width: 100%;
+}
+
+td:nth-child(even) {
+    text-align: right;
+}
+
+p {
+    line-height: 0px;
+    display: initial;
+}
