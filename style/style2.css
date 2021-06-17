@@ -1,0 +1,84 @@
+*{
+    font-size: 2vw;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+input {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+input:empty {
+    text-align: right;
+}
+
+th:first-child {
+    width: 8%;
+}
+
+th:last-child {
+    width: 20%;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 1%;
+
+}
+
+table {
+    margin: 0 auto 0 auto;
+    width: 60%;
+    height: 50%;
+    margin-top: 10px;
+}
+
+button {
+    text-align: center;
+    width: 100%;
+}
+
+td:nth-child(even) {
+    text-align: right;
+}
+
+p {
+    line-height: 0px;
+    display: initial;
+    text-align: right;
+
+}
+
+p#qwe {
+    float: right;
+}
+
+.fejlec {
+    border: black 1px dashed;
+    text-align: center;
+    margin: 2%;
+    background-color: black;
+
+}
+.fejlec2 {
+    border: black 1px ridge;
+    text-align: center;
+    margin: 2%;
+    background-color: silver;
+}
+
+.fejlec3 {
+    border: black 1px solid;
+    text-align: center;
+    margin: 2%;
+    background-color: yellowgreen;
+}
